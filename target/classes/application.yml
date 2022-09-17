@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: equity-trading
+  datasource:
+    url: "jdbc:mysql://localhost:3306/bug_report?serverTimezone=UTC&createDatabaseIfNotExist=true"
+    username: root
+    password: root
+
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topicName: "example-topic"
