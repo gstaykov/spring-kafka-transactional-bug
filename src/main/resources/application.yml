@@ -1,6 +1,6 @@
 spring:
   application:
-    name: equity-trading
+    name: kafka-transactional-bug
   datasource:
     url: "jdbc:mysql://localhost:3306/bug_report?serverTimezone=UTC&createDatabaseIfNotExist=true"
     username: root
