@@ -38,7 +38,7 @@ public class Config
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.ACKS_CONFIG, "all");
         props.put(ProducerConfig.COMPRESSION_TYPE_CONFIG, "lz4");
-        props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, "transaction-id-equity-trading"); // enable transaction awareness
+        props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, "transaction-id-example"); // enable transaction awareness
         // See https://kafka.apache.org/documentation/#producerconfigs for more properties
 
         ProducerFactory<String, String> producerFactory = new DefaultKafkaProducerFactory<>(props);
